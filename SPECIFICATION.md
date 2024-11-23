@@ -38,8 +38,8 @@ To start the NTP server, run the following command:
 ts-node ntp_server.ts
 ```
 
-### Running the NTP Client
-To use the NTP client to synchronize time with the server, run:
+### Running the NTP Client for testing the server
+To use the NTP client to retrieve the time from the server, run:
 
 ```bash
 ts-node ntp_client.ts
