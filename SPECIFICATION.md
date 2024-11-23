@@ -20,7 +20,7 @@ The project consists of two main components:
   **Protocol Version**: `4`
 - **Response**: Returns the current time in UTC.
 
-### NTP Client
+### NTP Client (Optional)
 - The client does not expose an API but interacts with the server using the above UDP datagram.
 
 ## Installation and Setup
