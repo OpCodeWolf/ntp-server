@@ -1,0 +1,10 @@
+services:
+  ntp_server:
+    container_name: ntp_server
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "123:123/udp"
+    working_dir: /usr/src/app
+    command: npm start
